@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1> Utilizando formulário para login e senha </h1>
+   <form action="login.php" method="get" autocomplete="on">
+        <p>
+            <label for="user">Usuário</label>
+            <input type="text" name="user" id="user" minlength="3" maxlength="16">
+
+        </p>
+        <p>
+            <label for="data">Data</label>
+            <input type="date" name="data" id="data">
+        </p>         
+        <p>
+            <label for="pass">Senha</label>
+            <input type="password" name="pass" id="pass" minlength="8" autocomplete="">
+        </p>
+        <p>
+            <p>Por quê você esta cansado??</p>
+            <label for="op">Joguei a noite inteira</label>
+            <input type="radio" name="op" id="op">
+            <label for="op">Me perdi na noitada</label>
+            <input type="radio" name="op" id="op">
+        </p>
+        <p>
+            <button type="submit">Entrar</button>
+            <button type="reset">Limpar</button>
+        </p>
+
+    </form>
+ 
+</body>
+</html>
